@@ -12,4 +12,4 @@ A firmware dataset collected from main-stream vendors for large-scale testing.
 ## Usage
 See [download_all.sh](download_all.sh) and [download.sh](download.sh)
 
-**To avoid too many similar firmware samples, only one version of the same firmware model will be retrieved.**
+**To avoid too many similar firmware samples, only one version of the same firmware model will be collected.**
