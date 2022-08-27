@@ -1,6 +1,6 @@
 # firmware_dataset
 
-A firmware dataset from the main-stream vendors for large-scale testing.
+A firmware dataset collected from main-stream vendors for large-scale testing.
 
 ## Vendors
 - D-Link (478)
