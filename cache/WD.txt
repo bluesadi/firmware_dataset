@@ -1,0 +1,6 @@
+http://download.wdc.com/nas/MyPassportWirelessSSD_1.04.17.bin
+http://download.wdc.com/nas/MyPassportWireless_1.07.02.bin
+http://download.wdc.com/nas/MyPassportWirelessGen2_1.04.17.bin
+http://download.wdc.com/nas/My_Cloud_LT4A_2.12.127.bin
+http://download.wdc.com/nas/My_Cloud_KC2A_2.12.127.bin
+http://download.wdc.com/nas/My_Cloud_BZVM_2.12.127.bin
