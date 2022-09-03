@@ -9,7 +9,7 @@ A firmware dataset collected from main-stream vendors for large-scale testing.
 - Zyxel (44)
 - TP-Link (33)
 - WD (6)
-- Tomato (2)
+- Tomato (4)
 
 ## Usage
 See [download_all.sh](download_all.sh) and [download.sh](download.sh)
