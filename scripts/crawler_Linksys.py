@@ -3,7 +3,7 @@ import multiprocessing as mp
 
 def retrieve_one(url):
     product_page = get_html(url)
-    for product_label in product_page.find_all('a', text='\nDOWNLOADS / FIRMWARE\n'):
+    for product_label in product_page.find_all('a', title='DOWNLOADS / FIRMWARE'):
         download_page = get_html(product_label['href'])
         for download_label in download_page.find_all('a', href=lambda href: href is not None and href.startswith('https://downloads.linksys.com/downloads/firmware/')):
             download_url = download_label['href']

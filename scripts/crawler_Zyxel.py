@@ -4,7 +4,7 @@ from utils import cache_url
 import multiprocessing as mp
 
 def retrieve_one(model):
-    response = requests.get(f'https://www.zyxel.com/support/DownloadLandingSR.shtml?c=gb&l=en&kbid=M-02809&md={model}')
+    response = requests.get(f'https://www.zyxel.com/global/en/support/download?model={model}')
     download_urls = set(re.findall(f'https://.*?{model}.*?\.zip', response.text))
     for download_url in download_urls:
         cache_url(download_url, 'Zyxel')

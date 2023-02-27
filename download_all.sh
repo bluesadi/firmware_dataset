@@ -1,3 +1,4 @@
+#!/bin/bash
 VENDORS=(
     D-Link
     Linksys
@@ -7,6 +8,7 @@ VENDORS=(
     WD
     Tomato
 )
-for vendor in ${VENDORS[@]} do
+for vendor in ${VENDORS[@]} 
+do
     ./download.sh $vendor
 done
